@@ -1,0 +1,30 @@
+{
+  "format_version": 2,
+  "header": {
+    "name": "Night Vision+ (Safe for Achievements)",
+    "description": "Enjoy permanent Night Vision while keeping achievements enabled - by aizhu.",
+    "uuid": "3898b0a2-9c17-4563-b5e9-d7c8fdefe189",
+    "version": [1, 0, 0],
+    "min_engine_version": [1, 21, 130]
+  },
+  "modules": [
+    {
+      "type": "script",
+      "language": "javascript",
+      "entry": "scripts/main.js",
+      "uuid": "3afa3d62-ad2a-4c77-84d4-fe11b67afbdd",
+      "version": [1, 0, 0]
+    }
+  ],
+  "dependencies": [
+    {
+      "module_name": "@minecraft/server",
+      "version": "2.3.0"
+    }
+  ],
+  "metadata": {
+    "authors": ["Aizhu"],
+    "product_type": "addon",
+    "license": "CC BY-NC-SA 4.0"
+  }
+}
